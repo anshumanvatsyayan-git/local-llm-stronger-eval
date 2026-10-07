@@ -23,6 +23,19 @@ This is a 17-question eval for open-weight models running locally through [Ollam
 | `hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS` | 14 GB, MoE, about 4B active | default |
 | `hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M` | 17 GB, MoE, about 3B active | thinking on |
 
+### Why these six models
+
+The question behind this eval was practical: *what is the best model I can run fully offline on this laptop?* The models were chosen with that in mind.
+
+1. **Each model fits in the GPU memory budget.** A model only runs at a usable speed if its weights plus its context fit inside about 19 GB of GPU memory. That rules out most models above roughly 30B parameters at 4-bit, and it is why the two largest models here use 3- to 4.25-bit builds from Unsloth.
+2. **One model family at every size.** The four Gemma 4 models (E2B, E4B, 12B and 26B-A4B) show how much size helps while the training recipe stays the same.
+3. **The strongest alternatives from other labs.** gpt-oss:20b (OpenAI) and Qwen 3.6 35B-A3B (Alibaba) are popular open-weight models from two other major labs, and both fit in this budget. Both are also mixture-of-experts models, like Gemma 26B-A4B.
+4. **Both dense and mixture-of-experts designs.** A dense model reads all its weights for every token. A mixture-of-experts (MoE) model reads only the few "experts" it needs. On a laptop, this decides speed more than parameter count does.
+
+**Tried and dropped.** Qwen 3.6 27B (dense) was too slow on this hardware and crashed with GPU out-of-memory errors under load, so it could not complete a fair run.
+
+**Not tested (yet).** These were left out for time, not on merit: Llama, Mistral and Ministral, Phi, DeepSeek distills, IBM Granite, Qwen coder variants and larger models at 2-bit. The eval runs on any Ollama model, so pull requests with results for these are welcome.
+
 ## Results
 
 Scores are averaged over questions and runs, on a 0–100 scale.
