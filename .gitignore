@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+# local run outputs (published results live in results/)
+/stronger_answers_*.txt
+/stronger_scores_*.csv
+/stronger_gpu_*.txt
+/*_judge_pack.md
+/*_judge_key.csv

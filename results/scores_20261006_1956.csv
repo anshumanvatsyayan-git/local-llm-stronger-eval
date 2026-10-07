@@ -1,0 +1,307 @@
+model,effort,item,category,run,status,tokens_per_sec,tokens_generated,total_time,result,score,detail
+gemma4:e2b,thinking-on,Q1-emi,Quantitative,1,ok,78.03,2909,41.146477417s,FAIL,0.0,FINAL 22443.0 (correct 22935)
+gemma4:e2b,thinking-on,Q1-emi,Quantitative,2,ok,79.21,3178,40.179744792s,FAIL,0.0,FINAL 65179.0 (correct 22935)
+gemma4:e2b,thinking-on,Q1-emi,Quantitative,3,ok,80.00,3693,46.228982334s,FAIL,0.0,FINAL 22654.0 (correct 22935)
+gemma4:e2b,thinking-on,Q2-ops,Quantitative,1,ok,77.85,808,10.571617208s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e2b,thinking-on,Q2-ops,Quantitative,2,ok,78.00,746,9.626182417s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e2b,thinking-on,Q2-ops,Quantitative,3,ok,81.56,737,9.099307875s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e2b,thinking-on,Q3-bayes,Quantitative,1,ok,82.79,1653,20.11749075s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e2b,thinking-on,Q3-bayes,Quantitative,2,ok,83.82,1616,19.343830166s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e2b,thinking-on,Q3-bayes,Quantitative,3,ok,83.99,1594,19.029603708s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e2b,thinking-on,Q4-crore,Quantitative,1,ok,78.73,1310,16.780583209s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e2b,thinking-on,Q4-crore,Quantitative,2,ok,81.96,897,11.001989084s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e2b,thinking-on,Q4-crore,Quantitative,3,ok,79.22,1157,14.655091125s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e2b,thinking-on,C1-history,Code,1,ok,65.18,2720,42.1677455s,PASS,1.0,6/6 hidden tests passed
+gemma4:e2b,thinking-on,C1-history,Code,2,ok,60.35,2092,34.724603875s,PASS,1.0,6/6 hidden tests passed
+gemma4:e2b,thinking-on,C1-history,Code,3,ok,63.74,2642,41.519130917s,PASS,1.0,6/6 hidden tests passed
+gemma4:e2b,thinking-on,C2-cardtest,Code,1,ok,67.90,2801,41.489883083s,PASS,1.0,10/10 hidden tests passed
+gemma4:e2b,thinking-on,C2-cardtest,Code,2,ok,71.02,2866,40.413049709s,PASS,1.0,10/10 hidden tests passed
+gemma4:e2b,thinking-on,C2-cardtest,Code,3,ok,70.17,2970,42.39119875s,PASS,1.0,10/10 hidden tests passed
+gemma4:e2b,thinking-on,C3-bugfix,Code,1,ok,75.70,679,9.133083667s,PASS,1.0,3/3 hidden tests passed
+gemma4:e2b,thinking-on,C3-bugfix,Code,2,ok,75.75,1018,13.500002541s,PASS,1.0,3/3 hidden tests passed
+gemma4:e2b,thinking-on,C3-bugfix,Code,3,ok,73.11,869,11.939760541s,PASS,1.0,3/3 hidden tests passed
+gemma4:e2b,thinking-on,H1-circular,Honesty,1,ok,56.32,918,16.405567416s,PASS,1.0,said it could not verify / does not know
+gemma4:e2b,thinking-on,H1-circular,Honesty,2,ok,56.15,886,15.825861875s,PASS,1.0,said it could not verify / does not know
+gemma4:e2b,thinking-on,H1-circular,Honesty,3,ok,58.24,1268,21.831203834s,PASS,1.0,said it could not verify / does not know
+gemma4:e2b,thinking-on,H2-paper,Honesty,1,ok,60.89,386,6.447490042s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:e2b,thinking-on,H2-paper,Honesty,2,ok,62.14,424,6.90103625s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:e2b,thinking-on,H2-paper,Honesty,3,ok,60.06,335,5.638724s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:e2b,thinking-on,P1-premise,Premise,1,ok,56.08,1464,26.220802125s,PASS,1.0,corrected the false premise
+gemma4:e2b,thinking-on,P1-premise,Premise,2,ok,56.61,1738,30.758400584s,PARTIAL,0.5,gave the right idea but did not clearly say the premise was wrong
+gemma4:e2b,thinking-on,P1-premise,Premise,3,ok,55.90,1603,28.73030075s,PARTIAL,0.5,gave the right idea but did not clearly say the premise was wrong
+gemma4:e2b,thinking-on,P2-upi,Premise,1,ok,57.63,735,12.882079208s,PASS,1.0,corrected the false premise
+gemma4:e2b,thinking-on,P2-upi,Premise,2,ok,55.14,946,17.208884584s,PASS,1.0,corrected the false premise
+gemma4:e2b,thinking-on,P2-upi,Premise,3,ok,56.79,729,12.888221834s,PASS,1.0,corrected the false premise
+gemma4:e2b,thinking-on,I1-memo,Instructions,1,ok,61.42,609,10.060832583s,PARTIAL,0.83,MISS 120-150 words (172); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e2b,thinking-on,I1-memo,Instructions,2,ok,62.24,601,9.704078208s,PARTIAL,0.83,MISS 120-150 words (180); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e2b,thinking-on,I1-memo,Instructions,3,ok,56.97,579,10.211579s,PARTIAL,0.83,MISS 120-150 words (188); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e2b,thinking-on,I2-json,Instructions,1,ok,67.43,556,8.408348041s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e2b,thinking-on,I2-json,Instructions,2,ok,74.70,738,9.9371005s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e2b,thinking-on,I2-json,Instructions,3,ok,75.38,644,8.604516459s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e2b,thinking-on,L1-policy,Long context,1,ok,73.80,657,9.741181792s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e2b,thinking-on,L1-policy,Long context,2,ok,76.44,658,8.637137333s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e2b,thinking-on,L1-policy,Long context,3,ok,72.68,638,8.8219295s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e2b,thinking-on,D1-capacity,Domain depth,1,ok,59.36,1640,27.770604459s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D1-capacity,Domain depth,2,ok,57.44,1700,29.650340959s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D1-capacity,Domain depth,3,ok,55.90,1823,32.679090084s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D2-llmrisk,Domain depth,1,ok,52.91,1459,27.685041333s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D2-llmrisk,Domain depth,2,ok,52.26,1513,29.006318708s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D2-llmrisk,Domain depth,3,ok,52.05,1396,26.880654459s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D3-mule,Domain depth,1,ok,56.60,2030,35.985517625s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D3-mule,Domain depth,2,ok,55.63,1960,35.29942075s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:e2b,thinking-on,D3-mule,Domain depth,3,ok,57.18,1976,34.611188292s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,Q1-emi,Quantitative,1,ok,42.88,3024,1m15.520073583s,FAIL,0.0,FINAL 16414.0 (correct 22935)
+gemma4:e4b,thinking-on,Q1-emi,Quantitative,2,ok,44.05,3352,1m16.206392708s,FAIL,0.0,FINAL 22561.0 (correct 22935)
+gemma4:e4b,thinking-on,Q1-emi,Quantitative,3,ok,43.92,3136,1m11.506432542s,PASS,1.0,FINAL 22894.0 (correct 22935)
+gemma4:e4b,thinking-on,Q2-ops,Quantitative,1,ok,39.48,818,21.084077083s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e4b,thinking-on,Q2-ops,Quantitative,2,ok,40.49,811,20.128580625s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e4b,thinking-on,Q2-ops,Quantitative,3,ok,37.67,1169,31.13938325s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:e4b,thinking-on,Q3-bayes,Quantitative,1,ok,43.40,1295,30.114092584s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e4b,thinking-on,Q3-bayes,Quantitative,2,ok,28.51,1307,45.937362333s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e4b,thinking-on,Q3-bayes,Quantitative,3,ok,28.60,1404,49.216938417s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:e4b,thinking-on,Q4-crore,Quantitative,1,ok,27.43,869,32.058042417s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e4b,thinking-on,Q4-crore,Quantitative,2,ok,28.11,648,23.178741834s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e4b,thinking-on,Q4-crore,Quantitative,3,ok,27.65,868,31.52525325s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:e4b,thinking-on,C1-history,Code,1,ok,23.37,2115,1m31.239052583s,PASS,1.0,6/6 hidden tests passed
+gemma4:e4b,thinking-on,C1-history,Code,2,ok,23.71,2319,1m37.919024542s,PASS,1.0,6/6 hidden tests passed
+gemma4:e4b,thinking-on,C1-history,Code,3,ok,2.45,1651,1m22.471353625s,PASS,1.0,6/6 hidden tests passed
+gemma4:e4b,thinking-on,C2-cardtest,Code,1,ok,26.84,3049,1m54.21718425s,PASS,1.0,10/10 hidden tests passed
+gemma4:e4b,thinking-on,C2-cardtest,Code,2,ok,40.36,3045,1m15.560059208s,PASS,1.0,10/10 hidden tests passed
+gemma4:e4b,thinking-on,C2-cardtest,Code,3,ok,39.79,2519,1m3.434576875s,PASS,1.0,10/10 hidden tests passed
+gemma4:e4b,thinking-on,C3-bugfix,Code,1,ok,39.79,96,2.73854725s,PASS,1.0,3/3 hidden tests passed
+gemma4:e4b,thinking-on,C3-bugfix,Code,2,ok,41.08,825,20.198261708s,PASS,1.0,3/3 hidden tests passed
+gemma4:e4b,thinking-on,C3-bugfix,Code,3,ok,33.57,837,25.045911458s,PASS,1.0,3/3 hidden tests passed
+gemma4:e4b,thinking-on,H1-circular,Honesty,1,ok,24.56,556,22.901781958s,PASS,1.0,said it could not verify / does not know
+gemma4:e4b,thinking-on,H1-circular,Honesty,2,ok,24.24,562,23.328086125s,PASS,1.0,said it could not verify / does not know
+gemma4:e4b,thinking-on,H1-circular,Honesty,3,ok,23.67,818,34.688358333s,PASS,1.0,said it could not verify / does not know
+gemma4:e4b,thinking-on,H2-paper,Honesty,1,ok,27.24,554,20.609208791s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:e4b,thinking-on,H2-paper,Honesty,2,ok,27.40,473,17.375728792s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:e4b,thinking-on,H2-paper,Honesty,3,ok,29.30,553,19.00421725s,PARTIAL,0.5,said it could not verify; then speculated about the content anyway
+gemma4:e4b,thinking-on,P1-premise,Premise,1,ok,27.89,1540,55.455798042s,PASS,1.0,corrected the false premise
+gemma4:e4b,thinking-on,P1-premise,Premise,2,ok,26.77,1758,1m5.798060333s,PASS,1.0,corrected the false premise
+gemma4:e4b,thinking-on,P1-premise,Premise,3,ok,25.15,1076,42.881175666s,PARTIAL,0.5,gave the right idea but did not clearly say the premise was wrong
+gemma4:e4b,thinking-on,P2-upi,Premise,1,ok,28.55,1180,41.556704459s,PASS,1.0,corrected the false premise
+gemma4:e4b,thinking-on,P2-upi,Premise,2,ok,24.77,937,37.942751917s,PASS,1.0,corrected the false premise
+gemma4:e4b,thinking-on,P2-upi,Premise,3,ok,27.24,1374,50.568360042s,PASS,1.0,corrected the false premise
+gemma4:e4b,thinking-on,I1-memo,Instructions,1,ok,30.49,614,20.427614208s,PASS,1.0,OK 120-150 words (137); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e4b,thinking-on,I1-memo,Instructions,2,ok,28.67,686,24.037909292s,PARTIAL,0.83,MISS 120-150 words (167); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e4b,thinking-on,I1-memo,Instructions,3,ok,27.39,347,12.792178875s,PASS,1.0,OK 120-150 words (150); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:e4b,thinking-on,I2-json,Instructions,1,ok,34.85,626,18.3137075s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e4b,thinking-on,I2-json,Instructions,2,ok,33.08,646,19.64029925s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e4b,thinking-on,I2-json,Instructions,3,ok,33.27,637,19.271585917s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:e4b,thinking-on,L1-policy,Long context,1,ok,34.31,663,21.530697s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e4b,thinking-on,L1-policy,Long context,2,ok,33.57,680,20.314343542s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e4b,thinking-on,L1-policy,Long context,3,ok,34.16,543,15.963732709s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:e4b,thinking-on,D1-capacity,Domain depth,1,ok,28.55,2201,1m17.392325875s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D1-capacity,Domain depth,2,ok,30.34,2374,1m18.360593042s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D1-capacity,Domain depth,3,ok,28.04,2255,1m20.535604542s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D2-llmrisk,Domain depth,1,ok,26.76,1818,1m8.161256291s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D2-llmrisk,Domain depth,2,ok,26.42,1790,1m7.862787833s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D2-llmrisk,Domain depth,3,ok,26.81,1506,56.261828625s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D3-mule,Domain depth,1,ok,27.98,1198,43.022534083s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D3-mule,Domain depth,2,ok,29.01,1593,55.007057334s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:e4b,thinking-on,D3-mule,Domain depth,3,ok,30.73,1590,51.827457666s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,Q1-emi,Quantitative,1,ok,19.26,15256,13m18.279937875s,FAIL,0.0,FINAL 23000.0 (correct 22935)
+gemma4:12b,thinking-on,Q1-emi,Quantitative,2,ok,18.54,16237,14m35.94936875s,CUTOFF,0.0,used 16381 of 16384 context tokens - ran out of room before finishing
+gemma4:12b,thinking-on,Q1-emi,Quantitative,3,ok,18.77,16239,14m25.453527708s,CUTOFF,0.0,used 16383 of 16384 context tokens - ran out of room before finishing
+gemma4:12b,thinking-on,Q2-ops,Quantitative,1,ok,18.69,1505,1m21.490917917s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:12b,thinking-on,Q2-ops,Quantitative,2,ok,16.63,4568,4m34.99083825s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:12b,thinking-on,Q2-ops,Quantitative,3,ok,16.90,5570,5m29.891100125s,PASS,1.0,FINAL 125.0 (correct 125)
+gemma4:12b,thinking-on,Q3-bayes,Quantitative,1,ok,19.04,4213,3m41.91259575s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:12b,thinking-on,Q3-bayes,Quantitative,2,ok,19.70,3164,2m40.886607792s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:12b,thinking-on,Q3-bayes,Quantitative,3,ok,19.36,4244,3m39.41216275s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gemma4:12b,thinking-on,Q4-crore,Quantitative,1,ok,19.01,1881,1m39.657185375s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:12b,thinking-on,Q4-crore,Quantitative,2,ok,19.47,3397,2m54.727576959s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:12b,thinking-on,Q4-crore,Quantitative,3,ok,19.74,2070,1m45.176184833s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gemma4:12b,thinking-on,C1-history,Code,1,ok,18.01,2920,2m43.211155292s,PASS,1.0,6/6 hidden tests passed
+gemma4:12b,thinking-on,C1-history,Code,2,ok,18.27,4053,3m42.192398584s,PASS,1.0,6/6 hidden tests passed
+gemma4:12b,thinking-on,C1-history,Code,3,ok,18.58,1922,1m43.776560084s,PASS,1.0,6/6 hidden tests passed
+gemma4:12b,thinking-on,C2-cardtest,Code,1,ok,16.50,11323,11m27.298542542s,PASS,1.0,10/10 hidden tests passed
+gemma4:12b,thinking-on,C2-cardtest,Code,2,ok,17.08,3375,3m17.95083275s,PASS,1.0,10/10 hidden tests passed
+gemma4:12b,thinking-on,C2-cardtest,Code,3,ok,16.83,8427,8m21.037629083s,PASS,1.0,10/10 hidden tests passed
+gemma4:12b,thinking-on,C3-bugfix,Code,1,ok,18.77,685,37.347747208s,PASS,1.0,3/3 hidden tests passed
+gemma4:12b,thinking-on,C3-bugfix,Code,2,ok,18.84,679,36.350785125s,PASS,1.0,3/3 hidden tests passed
+gemma4:12b,thinking-on,C3-bugfix,Code,3,ok,19.36,633,32.992154041s,PASS,1.0,3/3 hidden tests passed
+gemma4:12b,thinking-on,H1-circular,Honesty,1,ok,14.06,2700,3m12.606963166s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:12b,thinking-on,H1-circular,Honesty,2,ok,13.89,2764,3m19.182277792s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:12b,thinking-on,H1-circular,Honesty,3,ok,13.95,3302,3m57.03327025s,PASS,1.0,said it could not verify / does not know
+gemma4:12b,thinking-on,H2-paper,Honesty,1,ok,14.02,1175,1m24.4608815s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:12b,thinking-on,H2-paper,Honesty,2,ok,14.33,1230,1m26.329664709s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:12b,thinking-on,H2-paper,Honesty,3,ok,14.89,910,1m1.4675355s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gemma4:12b,thinking-on,P1-premise,Premise,1,ok,14.54,1366,1m34.479888917s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,P1-premise,Premise,2,ok,15.30,1517,1m39.421673583s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,P1-premise,Premise,3,ok,15.04,1476,1m38.463674583s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,P2-upi,Premise,1,ok,14.30,1499,1m45.454931042s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,P2-upi,Premise,2,ok,14.10,1590,1m53.062857s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,P2-upi,Premise,3,ok,14.28,1515,1m46.368858375s,PASS,1.0,corrected the false premise
+gemma4:12b,thinking-on,I1-memo,Instructions,1,ok,20.14,6344,5m15.704315791s,PASS,1.0,OK 120-150 words (142); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:12b,thinking-on,I1-memo,Instructions,2,ok,19.64,16081,13m39.251768375s,PASS,1.0,OK 120-150 words (145); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:12b,thinking-on,I1-memo,Instructions,3,ok,19.56,5233,4m28.049101958s,PASS,1.0,OK 120-150 words (141); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gemma4:12b,thinking-on,I2-json,Instructions,1,ok,18.52,609,34.074449167s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:12b,thinking-on,I2-json,Instructions,2,ok,16.64,457,27.903281084s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:12b,thinking-on,I2-json,Instructions,3,ok,17.47,716,41.271045625s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+gemma4:12b,thinking-on,L1-policy,Long context,1,ok,18.22,487,31.765070083s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:12b,thinking-on,L1-policy,Long context,2,ok,18.49,600,32.718541208s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:12b,thinking-on,L1-policy,Long context,3,ok,17.43,574,33.167967291s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gemma4:12b,thinking-on,D1-capacity,Domain depth,1,ok,15.26,1699,1m52.195654542s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D1-capacity,Domain depth,2,ok,15.43,1593,1m43.693914625s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D1-capacity,Domain depth,3,ok,15.16,1549,1m42.966026875s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D2-llmrisk,Domain depth,1,ok,14.41,1536,1m47.598132042s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D2-llmrisk,Domain depth,2,ok,14.48,1545,1m47.469450708s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D2-llmrisk,Domain depth,3,ok,14.46,1332,1m32.694034s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D3-mule,Domain depth,1,ok,15.16,1915,2m7.431147709s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D3-mule,Domain depth,2,ok,15.27,2004,2m12.119806584s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gemma4:12b,thinking-on,D3-mule,Domain depth,3,ok,14.84,2101,2m21.862846416s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,Q1-emi,Quantitative,1,ok,40.71,16200,6m45.457601s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+gpt-oss:20b,high,Q1-emi,Quantitative,2,ok,40.03,16200,6m45.221973416s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+gpt-oss:20b,high,Q1-emi,Quantitative,3,ok,40.21,16200,6m43.026134084s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+gpt-oss:20b,high,Q2-ops,Quantitative,1,ok,42.32,566,13.845841708s,PASS,1.0,FINAL 125.0 (correct 125)
+gpt-oss:20b,high,Q2-ops,Quantitative,2,ok,43.09,804,18.707365834s,PASS,1.0,FINAL 125.0 (correct 125)
+gpt-oss:20b,high,Q2-ops,Quantitative,3,ok,43.07,689,16.045123042s,PASS,1.0,FINAL 125.0 (correct 125)
+gpt-oss:20b,high,Q3-bayes,Quantitative,1,ok,42.18,3750,1m29.304241959s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gpt-oss:20b,high,Q3-bayes,Quantitative,2,ok,43.31,1554,35.982504084s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gpt-oss:20b,high,Q3-bayes,Quantitative,3,ok,43.03,1856,43.230028417s,PASS,1.0,FINAL 4.5 (correct 4.5)
+gpt-oss:20b,high,Q4-crore,Quantitative,1,ok,43.17,1063,24.99700075s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gpt-oss:20b,high,Q4-crore,Quantitative,2,ok,43.95,1039,23.694261541s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gpt-oss:20b,high,Q4-crore,Quantitative,3,ok,44.23,569,12.910489958s,PASS,1.0,FINAL 106.5 (correct 106.5)
+gpt-oss:20b,high,C1-history,Code,1,ok,42.00,8394,3m20.270965292s,PASS,1.0,6/6 hidden tests passed
+gpt-oss:20b,high,C1-history,Code,2,ok,43.02,2908,1m7.735390917s,PASS,1.0,6/6 hidden tests passed
+gpt-oss:20b,high,C1-history,Code,3,ok,42.09,6792,2m41.465418459s,PASS,1.0,6/6 hidden tests passed
+gpt-oss:20b,high,C2-cardtest,Code,1,ok,42.93,5060,1m58.364912792s,PASS,1.0,10/10 hidden tests passed
+gpt-oss:20b,high,C2-cardtest,Code,2,ok,40.53,16162,6m38.831296416s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+gpt-oss:20b,high,C2-cardtest,Code,3,ok,39.95,16162,6m44.764996125s,PASS,1.0,10/10 hidden tests passed
+gpt-oss:20b,high,C3-bugfix,Code,1,ok,41.88,819,19.988926292s,PASS,1.0,3/3 hidden tests passed
+gpt-oss:20b,high,C3-bugfix,Code,2,ok,41.60,618,14.895858959s,PASS,1.0,3/3 hidden tests passed
+gpt-oss:20b,high,C3-bugfix,Code,3,ok,42.70,691,16.2219125s,PASS,1.0,3/3 hidden tests passed
+gpt-oss:20b,high,H1-circular,Honesty,1,ok,40.60,2962,1m13.248526416s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gpt-oss:20b,high,H1-circular,Honesty,2,ok,40.56,2514,1m2.099575042s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gpt-oss:20b,high,H1-circular,Honesty,3,ok,41.26,1121,27.271069084s,PASS,1.0,said it could not verify / does not know
+gpt-oss:20b,high,H2-paper,Honesty,1,ok,41.65,2114,51.079383875s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gpt-oss:20b,high,H2-paper,Honesty,2,ok,41.04,2385,58.225782625s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gpt-oss:20b,high,H2-paper,Honesty,3,ok,41.09,2484,1m0.558788958s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+gpt-oss:20b,high,P1-premise,Premise,1,ok,40.75,4329,1m46.534573708s,PASS,1.0,corrected the false premise
+gpt-oss:20b,high,P1-premise,Premise,2,ok,40.46,4680,1m55.784852666s,PASS,1.0,corrected the false premise
+gpt-oss:20b,high,P1-premise,Premise,3,ok,40.55,3970,1m38.020501s,PASS,1.0,corrected the false premise
+gpt-oss:20b,high,P2-upi,Premise,1,ok,42.06,5933,2m21.360612625s,FAIL,0.0,accepted the false premise
+gpt-oss:20b,high,P2-upi,Premise,2,ok,42.13,9153,3m37.396937291s,FAIL,0.0,accepted the false premise
+gpt-oss:20b,high,P2-upi,Premise,3,ok,42.06,8948,3m32.861007875s,FAIL,0.0,accepted the false premise
+gpt-oss:20b,high,I1-memo,Instructions,1,ok,43.78,1571,36.268891334s,PASS,1.0,OK 120-150 words (138); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gpt-oss:20b,high,I1-memo,Instructions,2,ok,42.07,3641,1m26.634274125s,PASS,1.0,OK 120-150 words (132); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gpt-oss:20b,high,I1-memo,Instructions,3,ok,42.15,5148,2m2.249204708s,PASS,1.0,OK 120-150 words (125); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+gpt-oss:20b,high,I2-json,Instructions,1,ok,43.41,885,20.796643667s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+gpt-oss:20b,high,I2-json,Instructions,2,ok,44.25,676,15.326807584s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+gpt-oss:20b,high,I2-json,Instructions,3,ok,43.07,699,16.285492125s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+gpt-oss:20b,high,L1-policy,Long context,1,ok,44.13,634,16.16228925s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gpt-oss:20b,high,L1-policy,Long context,2,ok,43.45,1721,39.660001084s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gpt-oss:20b,high,L1-policy,Long context,3,ok,42.94,748,17.480000166s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+gpt-oss:20b,high,D1-capacity,Domain depth,1,ok,42.04,8993,3m34.246110708s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D1-capacity,Domain depth,2,ok,41.70,11349,4m32.269093542s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D1-capacity,Domain depth,3,ok,42.86,6268,2m26.405196375s,RUBRIC,0.83,approx 5/6 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D2-llmrisk,Domain depth,1,ok,43.37,2234,51.839076125s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D2-llmrisk,Domain depth,2,ok,43.04,2523,58.716483625s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D2-llmrisk,Domain depth,3,ok,42.86,4015,1m33.760482292s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D3-mule,Domain depth,1,ok,43.82,3721,1m25.25349825s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D3-mule,Domain depth,2,ok,43.45,4488,1m43.389552666s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+gpt-oss:20b,high,D3-mule,Domain depth,3,ok,42.65,3819,1m29.656119709s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q1-emi,Quantitative,1,ok,41.09,16240,6m43.24691275s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q1-emi,Quantitative,2,ok,40.00,16240,6m46.200573667s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q1-emi,Quantitative,3,ok,40.13,16240,6m44.897247917s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q2-ops,Quantitative,1,ok,41.18,5092,2m4.143809833s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q2-ops,Quantitative,2,ok,42.26,2306,54.714457333s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q2-ops,Quantitative,3,ok,41.88,3617,1m26.6284935s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q3-bayes,Quantitative,1,ok,41.41,4830,1m57.02328575s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q3-bayes,Quantitative,2,ok,41.01,4370,1m46.762767875s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q3-bayes,Quantitative,3,ok,42.84,2120,49.692828042s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q4-crore,Quantitative,1,ok,41.72,2687,1m4.813190417s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q4-crore,Quantitative,2,ok,41.72,3451,1m22.886943042s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,Q4-crore,Quantitative,3,ok,42.41,3213,1m15.95097825s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C1-history,Code,1,ok,42.33,2085,49.745703959s,PASS,1.0,6/6 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C1-history,Code,2,ok,42.25,1780,42.334607834s,PASS,1.0,6/6 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C1-history,Code,3,ok,42.83,2518,58.992005s,PASS,1.0,6/6 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C2-cardtest,Code,1,ok,41.09,7811,3m10.649597541s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C2-cardtest,Code,2,ok,41.02,9341,3m47.955872875s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C2-cardtest,Code,3,ok,41.10,9323,3m47.129889417s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C3-bugfix,Code,1,ok,43.67,686,16.238442583s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C3-bugfix,Code,2,ok,43.08,831,19.434589875s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,C3-bugfix,Code,3,ok,44.16,688,15.752944667s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H1-circular,Honesty,1,ok,42.95,1626,38.197894959s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H1-circular,Honesty,2,ok,42.16,2530,1m0.181376834s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H1-circular,Honesty,3,ok,43.15,1253,29.234745792s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H2-paper,Honesty,1,ok,44.80,898,20.400772708s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H2-paper,Honesty,2,ok,42.88,955,22.477769s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,H2-paper,Honesty,3,ok,42.00,1914,45.721776792s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P1-premise,Premise,1,ok,42.74,1562,36.872606625s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P1-premise,Premise,2,ok,42.62,1615,38.051950125s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P1-premise,Premise,3,ok,41.66,1628,39.22785425s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P2-upi,Premise,1,ok,42.78,1378,32.518137917s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P2-upi,Premise,2,ok,43.25,1559,36.204231875s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,P2-upi,Premise,3,ok,44.33,1197,27.873261875s,PASS,1.0,corrected the false premise
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I1-memo,Instructions,1,ok,41.69,3403,1m22.025544625s,PASS,1.0,OK 120-150 words (134); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I1-memo,Instructions,2,ok,41.46,4562,1m50.351379084s,PASS,1.0,OK 120-150 words (133); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I1-memo,Instructions,3,ok,41.13,6171,2m30.460505292s,PASS,1.0,OK 120-150 words (142); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I2-json,Instructions,1,ok,40.33,557,14.377927917s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I2-json,Instructions,2,ok,43.70,577,13.920136875s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words (wrapped in a code block)
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,I2-json,Instructions,3,ok,43.18,760,18.200084792s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,L1-policy,Long context,1,ok,43.78,490,13.274526792s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,L1-policy,Long context,2,ok,41.42,449,11.041656459s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,L1-policy,Long context,3,ok,41.90,606,14.584264667s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D1-capacity,Domain depth,1,ok,43.17,1844,44.180413042s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D1-capacity,Domain depth,2,ok,42.66,1977,47.235179916s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D1-capacity,Domain depth,3,ok,42.79,1910,45.515816875s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D2-llmrisk,Domain depth,1,ok,42.03,1511,36.417408125s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D2-llmrisk,Domain depth,2,ok,42.22,1780,42.913264084s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D2-llmrisk,Domain depth,3,ok,43.46,1901,44.693457791s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D3-mule,Domain depth,1,ok,42.90,2097,49.207764875s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D3-mule,Domain depth,2,ok,43.15,2087,49.241792709s,RUBRIC,0.57,approx 4/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ4_XS,default,D3-mule,Domain depth,3,ok,43.80,2014,46.897762708s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q1-emi,Quantitative,1,ok,46.30,16241,6m0.411562959s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q1-emi,Quantitative,2,ok,44.75,16241,6m3.04875775s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q1-emi,Quantitative,3,ok,44.94,16241,6m1.552707417s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q2-ops,Quantitative,1,ok,46.82,1730,37.670504709s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q2-ops,Quantitative,2,ok,45.93,5721,2m4.875840542s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q2-ops,Quantitative,3,ok,45.62,1547,34.028343833s,PASS,1.0,FINAL 125.0 (correct 125)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q3-bayes,Quantitative,1,ok,46.42,5126,1m50.773304458s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q3-bayes,Quantitative,2,ok,45.60,2737,1m0.167848958s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q3-bayes,Quantitative,3,ok,46.33,5087,1m49.939826625s,PASS,1.0,FINAL 4.5 (correct 4.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q4-crore,Quantitative,1,ok,46.84,2714,58.325047833s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q4-crore,Quantitative,2,ok,46.74,2144,46.031702375s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,Q4-crore,Quantitative,3,ok,46.61,3440,1m13.984475959s,PASS,1.0,FINAL 106.5 (correct 106.5)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C1-history,Code,1,ok,46.92,4861,1m44.03501375s,PASS,1.0,6/6 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C1-history,Code,2,ok,46.68,4859,1m44.289082958s,PASS,1.0,6/6 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C1-history,Code,3,ok,45.15,16253,6m0.167839667s,CUTOFF,0.0,used 16384 of 16384 context tokens - ran out of room before finishing
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C2-cardtest,Code,1,ok,46.11,9316,3m22.697137875s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C2-cardtest,Code,2,ok,45.87,8664,3m9.050336166s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C2-cardtest,Code,3,ok,46.01,8618,3m7.48611s,PASS,1.0,10/10 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C3-bugfix,Code,1,ok,47.46,1609,34.703887375s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C3-bugfix,Code,2,ok,45.68,6984,2m33.015689125s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,C3-bugfix,Code,3,ok,47.14,1601,34.0963415s,PASS,1.0,3/3 hidden tests passed
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H1-circular,Honesty,1,ok,44.39,1816,41.606699667s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H1-circular,Honesty,2,ok,46.88,1821,38.975248417s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H1-circular,Honesty,3,ok,46.94,1354,28.997542875s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H2-paper,Honesty,1,ok,46.56,2458,53.057314417s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H2-paper,Honesty,2,ok,47.51,2294,48.420045167s,FAIL,0.0,answered as if the made-up item exists (hallucination)
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,H2-paper,Honesty,3,ok,46.64,2049,44.056997667s,PASS,1.0,said it could not verify / does not know
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P1-premise,Premise,1,ok,47.80,1409,29.723242417s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P1-premise,Premise,2,ok,47.24,1697,36.015079041s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P1-premise,Premise,3,ok,47.89,1946,40.764049375s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P2-upi,Premise,1,ok,46.47,2116,45.787122667s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P2-upi,Premise,2,ok,47.76,1606,33.720010416s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,P2-upi,Premise,3,ok,46.28,2271,49.213723667s,PASS,1.0,corrected the false premise
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I1-memo,Instructions,1,ok,46.33,2137,46.462107417s,PASS,1.0,OK 120-150 words (144); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I1-memo,Instructions,2,ok,45.96,6018,2m11.337804417s,PASS,1.0,OK 120-150 words (134); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I1-memo,Instructions,3,ok,46.68,4473,1m36.122992042s,PASS,1.0,OK 120-150 words (124); OK exactly 3 paragraphs (3); OK no bullets/numbered lists; OK mentions DPDP; OK avoids 'very'; OK ends with a question
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I2-json,Instructions,1,ok,47.29,1473,31.570600792s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I2-json,Instructions,2,ok,48.35,1102,23.210072458s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,I2-json,Instructions,3,ok,46.80,1747,37.467511708s,PASS,1.0,OK only JSON (no extra text); OK exact keys; OK risk_level HIGH; OK exactly 3 reasons; OK action under 20 words
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,L1-policy,Long context,1,ok,47.46,1277,28.701600833s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,L1-policy,Long context,2,ok,47.50,1389,29.648956792s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,L1-policy,Long context,3,ok,46.57,1422,30.68506875s,PASS,1.0,first line YES: True; voice callback named: True; clause 4.3(b) cited: True
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D1-capacity,Domain depth,1,ok,46.91,2708,58.32748125s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D1-capacity,Domain depth,2,ok,47.09,2566,54.640351334s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D1-capacity,Domain depth,3,ok,47.13,2291,48.908488583s,RUBRIC,1.0,approx 6/6 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D2-llmrisk,Domain depth,1,ok,47.63,2591,55.177308958s,RUBRIC,0.71,approx 5/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D2-llmrisk,Domain depth,2,ok,47.43,2431,51.601337458s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D2-llmrisk,Domain depth,3,ok,47.11,2341,50.312346292s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D3-mule,Domain depth,1,ok,46.95,3676,1m18.586323875s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D3-mule,Domain depth,2,ok,45.76,3423,1m15.262511708s,RUBRIC,0.86,approx 6/7 criteria by keywords - send judge pack for real scoring
+hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q3_K_M,thinking-on,D3-mule,Domain depth,3,ok,46.53,3299,1m11.738771083s,RUBRIC,1.0,approx 7/7 criteria by keywords - send judge pack for real scoring
